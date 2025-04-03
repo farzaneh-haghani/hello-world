@@ -1,0 +1,54 @@
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider IDE specific files
+.idea/
+*.sln.iml
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore dependencies
+packages/
+!packages/repositories.config
+
+# Ignore JetBrains Rider workspace files
+.idea/
+*.sln.iml
+
+# Ignore user-specific Rider settings
+*.dotSettings.user
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore NuGet specific files
+project.lock.json
+project.assets.json
+nuget.config
+
+# Ignore Resharper files
+_ReSharper*/
+**/ReSharper*/
+*.DotSettings.user
+
+# Ignore Rider workspace files
+.idea/
+*.sln.iml
+
+# Ignore generated files
+Generated/
+Telerik.ReportDesigner.config
+
+# Ignore other environment specific files
+.env
+.env.local
+.env.development
+.env.production
